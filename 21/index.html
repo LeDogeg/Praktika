@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="../21/style.css">
+    <script defer src="../21/js.js" ></script>
+</head>
+<body>
+    <div class="container">
+    <form action="#">
+        <p>Название события</p>
+        <input type="text" name="one" class="one">
+        <p>Описание</p>
+        <input type="text" name="two" class="two">
+        <input type="button" value="Добавить событие" class="three">
+    </form>
+    <div>
+            <table>
+        <thead>
+        <tr>
+            <td>Название события</td>
+            <td>Описание события</td>
+            <td>Время события</td>
+            <td>Кнопка удаления</td>
+            <td>Кнопка Выполнения</td>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    </div>
+    <div>    <table class="no">
+        <thead>
+        <tr>
+            <td>Удалённые события</td>
+        </tr>
+        <tr>
+            <td>Название события</td>
+            <td>Описание события</td>
+            <td>Время события</td>
+        </tr>
+    </thead>
+    <tbody class="deleted">
+    </tbody>
+    </table>
+    </div>
+
+    <div>
+    <table class="yes">
+        <thead>
+        <tr>
+            <td>Выполненные события</td>
+        </tr>
+        <tr>
+            <td>Название события</td>
+            <td>Описание события</td>
+            <td>Время события</td>
+        </tr>
+    </thead>
+    <tbody class="completed">
+
+    </tbody>
+    </table>
+</div>
+
+</div>
+</body>
+</html>
